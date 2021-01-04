@@ -46,15 +46,27 @@ section {
 .single-experiance{
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
-    height: 60%;
+    height: 50%;
     background-color: #fff;
 }
 
 .experiance-area{
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
+    background-position: left;
+    float: left;
 }
-.experiance-area h1 {
-    text-align: left !important;
-    display: block;
+#full-stack {
+    border-left: 10px solid;
+    border-image: linear-gradient(50deg,rgb(197, 57, 42), rgb(158, 118, 111));
+    border-image-slice: 1;
+    
+}
+#baby-stack{
+    border-left: 10px solid;
+    border-image: linear-gradient(50deg,blue,white);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
